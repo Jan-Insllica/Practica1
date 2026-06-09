@@ -1,15 +1,14 @@
 void setup() {
+  
   Serial.begin(115200);
-  Serial.println("Hola USB!");
+  delay(2000);
+  Serial.println("Hola");
+
 }
 
 void loop() {
-if (Serial.available()) {
-    String linia = Serial.readStringUntil('\n');
-    linia.trim();
-    if (linia.length() > 0) {
-        Serial.print("He rebut: ");
-        Serial.println(linia);
-    }
-}
+
+  String linea = Serial.readStringUntil('\n');
+  linea.trim();
+
 }
