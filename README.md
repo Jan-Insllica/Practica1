@@ -8,6 +8,7 @@ Resum del projecte
 L'ESP32 manté una comunicació sèrie amb l'ordinador utilitzant la interfície Serial. A través del Monitor Sèrie, l'usuari pot enviar instruccions per activar o desactivar un LED. El microcontrolador interpreta les comandes rebudes sense distingir entre majúscules i minúscules i retorna un missatge de confirmació per la mateixa connexió.
 
 Funcionament del sistema
+
 Configuració de la comunicació sèrie a una velocitat de 115200 baud.
 Enviament d'un missatge inicial indicant que el dispositiu està preparat per rebre instruccions.
 Supervisió contínua de les dades que arriben des del Monitor Sèrie.
