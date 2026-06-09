@@ -4,9 +4,12 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available()) {
-    char c = Serial.read();
-    Serial.print("He rebut: ");      
-    Serial.println(c);
-  }
+if (Serial.available()) {
+    String linia = Serial.readStringUntil('\n');
+    linia.trim();
+    if (linia.length() > 0) {
+        Serial.print("He rebut: ");
+        Serial.println(linia);
+    }
+}
 }
