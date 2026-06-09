@@ -30,6 +30,7 @@ El seguiment de les tasques es realitza mitjançant un tauler Kanban a GitHub am
 To do
 Doing
 Done
+
 Resultat final
 
 L'usuari pot controlar correctament l'estat del LED des del Monitor Sèrie. El sistema reconeix les comandes independentment del format de les lletres i proporciona una resposta informativa després de cada acció executada.
