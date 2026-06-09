@@ -1,5 +1,3 @@
-#include <dummy.h>
-
 void setup() {
   Serial.begin(115200);       // Inicia el port sèrie USB a 115200 baud
   delay(2000);
