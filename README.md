@@ -28,8 +28,8 @@ Organització del desenvolupament
 
 El seguiment de les tasques es realitza mitjançant un tauler Kanban a GitHub amb les columnes:
 
-To do
-Doing
+To do,
+Doing,
 Done
 
 Resultat final
