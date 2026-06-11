@@ -35,3 +35,5 @@ Done
 Resultat final
 
 L'usuari pot controlar correctament l'estat del LED des del Monitor Sèrie. El sistema reconeix les comandes independentment del format de les lletres i proporciona una resposta informativa després de cada acció executada.
+
+Video demostratiu: https://drive.google.com/file/d/1zq8xAKmh5mqJfalL7ja1rVW3XGooW3So/view?usp=sharing
